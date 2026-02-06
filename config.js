@@ -25,7 +25,7 @@ const CONFIG = {
             text: "¿Te gusto?",                                    // First interaction
             yesBtn: "Sí",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            secretAnswer: "Ya te dije que significaba me gustas"           // Secret hover message
         },
         second: {
             text: "¿Cuánto me quieres?​👉​👈​",                          // For the love meter
@@ -43,15 +43,15 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "WOOOOW, ¡¿tanto me quieres?! 🩵🥰🩵🥰🩵",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀🩵",              // Shows when they go past 1000%
+        high: "Oh... que cute :) 🩵",              // Shows when they go past 1000%
         normal: "🤗"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "¡Ahora tenemos una cita!🎉🩵🤍 Recibirás más info pronto...",
+        title: "¡Ahora tenemos una cita!🎉🩵🤍 Recibirás pronto más info ...",
         message: "⭐Te quiero, babyyyyyy⭐",
-        emojis: "🩵🤗🤍⭐"  // These will bounce around
+        emojis: "⭐🩵🤗🤍⭐"  // These will bounce around
     },
 
     // Color scheme for the website
@@ -70,7 +70,7 @@ const CONFIG = {
         floatDuration: "12s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "60px",          // How far hearts move sideways (30-70px recommended)
         bounceSpeed: "0.1s",            // Speed of bouncing animations (0.3-0.7s recommended)
-        heartExplosionSize: 1.0         // Size of heart explosion effect (1.2-2.0 recommended)
+        heartExplosionSize: 0.7         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
     // Background Music (Optional)
