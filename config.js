@@ -9,12 +9,12 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "Holi, tengo una pregunta para ti...",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['🩵', '⭐​', '💝', '⭐​', '⭐​'],  // Heart emojis
+        hearts: ['🩵', '⭐​', '💝'],  // Heart emojis
         bears: ['🧸', '🐻','🐣','🐥','🐥','⭐​','🐥']                       // Cute bear emojis
     },
 
@@ -22,8 +22,8 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
+            text: "¿Te gusto?",                                    // First interaction
+            yesBtn: "Sí",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
         },
@@ -33,7 +33,7 @@ const CONFIG = {
             nextBtn: "So... 🤓​​"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2026? 🌹", // The big question!
+            text: "¿Quieres celebrar San Valentín conmigo este 14 de febrero?🌹", // The big question!
             yesBtn: "¡Sí!",                                             // Text for "Yes" button
             noBtn: "No..."                                                 // Text for "No" button
         }
@@ -42,23 +42,23 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
+        extreme: "WOOOOW, ¡¿tanto me quieres?! 🩵🥰🩵🥰🩵",  // Shows when they go past 5000%
         high: "To infinity and beyond! 🚀🩵",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        normal: "🤗"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Wow! Ahora tienes una cita xxxx! 🎉💝🩵🤍",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
-        emojis: "🎁💖🩵🤗💝🩵🤍💕"  // These will bounce around
+        title: "Ahora tienes una cita conmigo, recibirás más info pronto! 🎉🩵🤍",
+        message: "⭐Te quiero, babyyyyyy⭐",
+        emojis: "🩵🤗🤍⭐"  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
         backgroundStart: "#2D51A5",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#32cd32",        // Gradient end (should complement backgroundStart)
+        backgroundEnd: "#78C0E0",        // Gradient end (should complement backgroundStart)
         buttonBackground: "#0E0E52",     // Button color (should stand out against the background)
         buttonHover: "#0E0E52",          // Button hover color (slightly lighter than buttonBackground)
         textColor: "#0E0E52"             // Text color (make sure it's readable!)
