@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['🩵', '⭐​', '💝'],  // Heart emojis
+        hearts: ['🩵', '⭐​', '💝','🩵', '⭐​'],  // Heart emojis
         bears: ['🐻','🐣','⭐​','🐥']                       // Cute bear emojis
     },
 
@@ -22,20 +22,20 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "¿Te gusto?",                                    // First interaction
+            text: "¿Te gusto?",                                       // First interaction
             yesBtn: "Sí",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "Acuérdate de la carta de Sevilla..."           // Secret hover message
+            noBtn: "No",                                              // Text for "No" button
+            secretAnswer: "Acuérdate de la carta de Sevilla..."       // Secret hover message
         },
         second: {
-            text: "¿Cuánto me quieres?​👉​👈​",                          // For the love meter
-            startText: "¿Así?",                                   // Text before the percentage
-            nextBtn: "So... 🤓​​"                                         // Text for the next button
+            text: "¿Cuánto me quieres?​👉​👈​",                         // For the love meter
+            startText: "¿Así?",                                       // Text before the percentage
+            nextBtn: "So... 🤓​​"                                       // Text for the next button
         },
         third: {
-            text: "¿Quieres celebrar San Valentín conmigo este 14 de febrero?🌹", // The big question!
-            yesBtn: "¡Sí!",                                             // Text for "Yes" button
-            noBtn: "No..."                                                 // Text for "No" button
+            text: "¿Quieres celebrar San Valentín conmigo este 14 de febrero?🌹",  // The big question!
+            yesBtn: "¡Sí!",                                                        // Text for "Yes" button
+            noBtn: "No..."                                                         // Text for "No" button
         }
     },
 
@@ -57,11 +57,11 @@ const CONFIG = {
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#2D51A5",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#78C0E0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#0E0E52",     // Button color (should stand out against the background)
-        buttonHover: "#0E0E52",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#0E0E52"             // Text color (make sure it's readable!)
+        backgroundStart: "#2D51A5",      // Color 3
+        backgroundEnd: "#78C0E0",        // Color 1
+        buttonBackground: "#0E0E52",     // Color 5
+        buttonHover: "#0E0E52",          // Color 5
+        textColor: "#0E0E52"             // Color 5
     },
 
     // Animation settings
