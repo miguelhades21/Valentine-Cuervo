@@ -41,11 +41,11 @@ function validateConfig() {
 // Default color values
 function getDefaultColor(key) {
     const defaults = {
-        backgroundStart: "#ffafbd",
-        backgroundEnd: "#ffc3a0",
-        buttonBackground: "#ff6b6b",
-        buttonHover: "#0E0E52",
-        textColor: "#0E0E52"
+        backgroundStart: "#2D51A5",      // Color 3
+        backgroundEnd: "#78C0E0",        // Color 1
+        buttonBackground: "#2D51A5",     // Color 3
+        buttonHover: "#0E0E52",          // Color 5
+        textColor: "#0E0E52"             // Color 5
     };
     return defaults[key];
 }
@@ -135,8 +135,8 @@ const loveValue = document.getElementById('loveValue');
 const extraLove = document.getElementById('extraLove');
 
 function setInitialPosition() {
-    loveMeter.value = 100;
-    loveValue.textContent = 100;
+    loveMeter.value = 0;
+    loveValue.textContent = 0;
     loveMeter.style.width = '100%';
 }
 
