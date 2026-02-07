@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Cuervo",
+    valentineName: "Cuervo🐦‍⬛🖤",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -14,18 +14,18 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['🩵', '⭐​', '💝','🩵', '⭐​'],  // Heart emojis
-        bears: ['🐻','🐣','⭐​','🐥']                       // Cute bear emojis
+        hearts: ['🩵', '⭐​', '💝','🩵', '⭐​']                        // Heart emojis
+        bears: ['🐻','🐣','⭐​','🐥','🐱​','🖤']                       // Cute bear emojis
     },
 
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "¿Te gusto?",                                       // First interaction
+            text: "¿Do you like me?🥺",                               // First interaction
             yesBtn: "Sí",                                             // Text for "Yes" button
             noBtn: "No",                                              // Text for "No" button
-            secretAnswer: "Acuérdate de la carta de Sevilla..."       // Secret hover message
+            secretAnswer: "Tengo otra pregunta ..."                   // Secret hover message
         },
         second: {
             text: "¿Cuánto me quieres?​👉​👈​",                         // For the love meter
@@ -43,14 +43,14 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "WOOOOW, ¡¿tanto me quieres?! 🩵🥰🩵🥰🩵",  // Shows when they go past 5000%
-        high: "Oh... que cute :) 🩵",              // Shows when they go past 1000%
+        high: "Oh... cute :) 🩵",              // Shows when they go past 1000%
         normal: "🤗"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "¡Ahora tenemos una cita!🎉🩵🤍 Recibirás pronto más info ...",
-        message: "⭐Te quiero, babyyyyyy⭐",
+        title: "⭐ Yo también te quiero mucho ⭐",
+        message: "¡Ahora tenemos una cita!🎉🩵🤍 Recibirás pronto más info ...",
         emojis: "⭐🩵🤗🤍⭐"  // These will bounce around
     },
 
@@ -70,7 +70,7 @@ const CONFIG = {
         floatDuration: "12s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "60px",          // How far hearts move sideways (30-70px recommended)
         bounceSpeed: "0.7s",            // Speed of bouncing animations (0.3-0.7s recommended)
-        heartExplosionSize: 2.00        // Size of heart explosion effect (1.2-2.0 recommended)
+        heartExplosionSize: 1.20        // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
     // Background Music (Optional)
