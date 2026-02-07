@@ -1,11 +1,11 @@
 /* CSS Variables - Will be updated by JavaScript */
 :root {
     /* Colors */
-    --background-color-1: #2D51A5;
-    --background-color-2: #78C0E0;
-    --button-color: #0E0E52;
-    --button-hover: #0E0E52;
-    --text-color: #0E0E52;
+    --background-color-1: #2D51A5; /*COLOR 3 - Steel Azure*/
+    --background-color-2: #78C0E0; /*Color 1 - */
+    --button-color: #0E0E52;       /*Color 5 - Twilights*/
+    --button-hover: #0E0E52;       /*Color 5 - Twilights*/
+    --text-color: #0E0E52;         /*Color 5 - Twilights*/
 
     /* Animations */
     --float-duration: 15s;
@@ -73,7 +73,7 @@ body {
 
 .cute-btn:hover {
     transform: scale(1.1);
-    background: rgba(14, 14, 82, 0.2);
+    background: rgba(14, 14, 82, 0.2); /*Color 5 - Twilights*/
 }
 
 .hidden {
@@ -120,7 +120,7 @@ body {
 .love-meter p {
     font-size: 1.2em;
     margin: 15px 0;
-    color: rgba(14, 14, 82, 0.2);
+    color: rgba(14, 14, 82, 0.2); /*Color 5 - Twilights*/
     transition: all 0.3s ease;
     display: flex;
     flex-direction: column;
@@ -131,19 +131,19 @@ body {
 .slider {
     width: 100%;
     height: 25px;
-    background: linear-gradient(to right, #2D51A5, #449DD1, #78C0E0);
+    background: linear-gradient(to right, #2D51A5, #449DD1, #78C0E0); /*Color 3, Color 2 y Color 1*/
     -webkit-appearance: none;
     appearance: none;
     outline: none;
     position: relative;
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(14, 14, 82, 0.2);
+    box-shadow: 0 4px 15px rgba(14, 14, 82, 0.2); /*Color 5 - Twilights*/
     transition: all 0.3s ease;
 }
 
 .slider:hover {
     transform: scale(1.02);
-    box-shadow: 0 6px 20px rgba(14, 14, 82, 0.3);
+    box-shadow: 0 6px 20px rgba(14, 14, 82, 0.3); /*Color 5 - Twilights*/
 }
 
 /* Ensure track is visible */
@@ -151,9 +151,9 @@ body {
 .slider::-moz-range-track {
     width: 100%;
     height: 25px;
-    background: linear-gradient(to right, #2D51A5, #449DD1, #78C0E0);
+    background: linear-gradient(to right, #2D51A5, #449DD1, #78C0E0); /*Color 3, Color 2 y Color 1*/
     border-radius: 15px;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(255, 255, 255, 0.5); /*White*/
 }
 
 /* Ensure thumb is properly styled */
@@ -161,10 +161,10 @@ body {
     -webkit-appearance: none;
     width: 35px;
     height: 35px;
-    background: linear-gradient(135deg, #2D51A5, #78C0E0);
+    background: linear-gradient(135deg, #2D51A5, #78C0E0); /*Color 3 y Color 1*/
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 0 2px 10px rgba(14, 14, 82, 0.3);
+    box-shadow: 0 2px 10px rgba(14, 14, 82, 0.3); /*Color 5 - Twilights*/
     position: relative;
     z-index: 10;
     margin-top: -5px;
@@ -174,16 +174,16 @@ body {
 
 .slider::-webkit-slider-thumb:hover {
     transform: scale(1.1);
-    box-shadow: 0 4px 15px rgba(14, 14, 82, 0.4);
+    box-shadow: 0 4px 15px rgba(14, 14, 82, 0.4); /*Color 5 - Twilights*/
 }
 
 .slider::-moz-range-thumb {
     width: 35px;
     height: 35px;
-    background: linear-gradient(135deg, #ff4757, #ff6b6b);
+    background: linear-gradient(135deg, #2D51A5, #78C0E0); /*Color 3 y Color 1*/
     border-radius: 50%;
     cursor: pointer;
-    box-shadow: 0 2px 10px rgba(14, 14, 82, 0.3);
+    box-shadow: 0 2px 10px rgba(14, 14, 82, 0.3); /*Color 5 - Twilights*/
     position: relative;
     z-index: 10;
     border: 3px solid white;
@@ -192,7 +192,7 @@ body {
 
 .slider::-moz-range-thumb:hover {
     transform: scale(1.1);
-    box-shadow: 0 4px 15px rgba(14, 14, 82, 0.4);
+    box-shadow: 0 4px 15px rgba(14, 14, 82, 0.4); /*Color 5 - Twilights*/
 }
 
 #extraLove {
@@ -202,22 +202,22 @@ body {
     display: block;
     padding: 5px 10px;
     border-radius: 10px;
-    background: rgba(14, 14, 82, 0.1);
-    text-shadow: 0 2px 4px rgba(14, 14, 82, 0.2);
+    background: rgba(14, 14, 82, 0.1);            /*Color 5 - Twilights*/
+    text-shadow: 0 2px 4px rgba(14, 14, 82, 0.2); /*Color 5 - Twilights*/
     transition: all 0.3s ease;
     margin-top: 5px;
 }
 
 #extraLove.super-love {
-    background: rgba(14, 14, 82, 0.2);
+    background: rgba(14, 14, 82, 0.2);            /*Color 5 - Twilights*/
     font-size: 1.2em;
     padding: 8px 15px;
-    box-shadow: 0 4px 15px rgba(14, 14, 82, 0.2);
+    box-shadow: 0 4px 15px rgba(14, 14, 82, 0.2); /*Color 5 - Twilights*/
 }
 
 #loveValue {
     font-weight: bold;
-    color: #0E0E52;
+    color: #0E0E52;                                /*Color 5 - Twilights*/
     font-size: 1.3em;
     transition: all 0.3s ease;
 }
@@ -275,17 +275,17 @@ h2 {
     font-weight: bold;
     transform: scale(1.2);
     display: inline-block;
-    text-shadow: 2px 2px 4px rgba(14, 14, 82, 0.3);
+    text-shadow: 2px 2px 4px rgba(14, 14, 82, 0.3);        /*Color 5 - Twilights*/
 }
 
 
 .celebration-text {
     font-size: 3em;
-    color: #0E0E52;
+    color: #0E0E52;                                        /*Color 5 - Twilights*/
     font-weight: bold;
     margin: 30px 0;
     animation: bounce var(--bounce-speed) infinite alternate;
-    text-shadow: 2px 2px 4px rgba(14, 14, 82, 0.3);
+    text-shadow: 2px 2px 4px rgba(14, 14, 82, 0.3);        /*Color 5 - Twilights*/
 }
 
 @keyframes subtle-hint {
