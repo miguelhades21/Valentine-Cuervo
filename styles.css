@@ -261,17 +261,17 @@ h1, h2 {
 }
 
 h1 {
-    color: #150578; /*Color de "Cuervo, mi amor" - Es el encabezado*/
+    color: #150578; /*Color de "Cuervo, mi amor" - Es el encabezado Deep Twilight*/
     margin-bottom: 2rem;
 }
 
 h2 {
-    color: #32cd32; /*Lima Test #32cd32 - Sustituye a #0E0E52*/
+    color: #150578; /*Color de las preguntas - azul NAVY*/
 }
 
 .super-love {
     font-size: 1.5em;
-    color: #0E0E52;
+    color: #32cd32; /* TEST- Deep Twilight #0E0E52*/
     font-weight: bold;
     transform: scale(1.2);
     display: inline-block;
