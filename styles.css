@@ -196,7 +196,7 @@ body {
 }
 
 #extraLove {
-    color: #ff6b6b;
+    color: #0E0E52;                              /*Color 5 - Twilights*/ 
     font-weight: bold;
     animation: bounce 0.5s infinite alternate;
     display: block;
@@ -271,7 +271,7 @@ h2 {
 
 .super-love {
     font-size: 1.5em;
-    color: #32cd32; /* TEST- Deep Twilight #0E0E52*/
+    color: #0E0E52; /* TEST- Deep Twilight #0E0E52*/
     font-weight: bold;
     transform: scale(1.2);
     display: inline-block;
